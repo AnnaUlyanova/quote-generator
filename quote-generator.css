@@ -1,0 +1,67 @@
+body{
+  background-image: url("background2.jpg");
+  background-repeat: no-repeat;
+   background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.container {
+  background-color: white;
+  width: 70%;
+  height: 100%;
+  margin-top: 10%;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-family: 'Sanchez', serif;
+font-size: 3em;
+text-decoration: underline;
+text-align: center;
+text-shadow: 5px 0px 3px rgba(153, 153, 153, 1);
+}
+
+#clickMe {
+  cursor: pointer;
+}
+
+#quote {
+  font-family: 'Montez', cursive;
+  font-size: 2.5em;
+  /*font-weight: bolder;*/
+}
+#author {
+  font-family: 'Sanchez', serif;
+  font-size: 1.2em;
+  text-align: right;
+}
+.button {
+  background-color: #55B8D9;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 2em;
+    }
+ .button:hover {
+    background-color: #4891A8;
+    box-shadow: 5px 5px 3px #295563;
+}
+.result {
+  padding: 10px;
+margin: 0 auto;
+text-align: center;
+}
+footer {
+  margin: auto 0;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+}
